@@ -31,7 +31,7 @@ body > header {
     background-color: #68b0ab; /* Updated header color */
     color: #faf3dd; /* Light text */
     display: flex;
-    height: 15vh; /* Adjusted height */
+    height: 30vh; /* Adjusted height */
     align-items: center;
     justify-content: space-around;
     border-bottom: 5px solid #4a7c59; /* Separator line */
