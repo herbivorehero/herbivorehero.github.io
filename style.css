@@ -34,6 +34,7 @@ body > header {
     height: 15vh; /* Adjusted height */
     align-items: center;
     justify-content: space-around;
+    border-bottom: 5px solid #4a7c59; /* Separator line */
 }
 
 body > header > nav > ul {
