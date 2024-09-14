@@ -1,41 +1,39 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    margin: 0;
     font-size: 28px;
-    background-color: #eae0d5; /* Light background */
-    color: #22333b; /* Dark text */
+    background-color: #faf3dd; /* Light background for the main text */
+    color: #4a7c59; /* Dark text */
 }
 
 p {
-    font-size: 0.9em; /* Slightly larger for better readability */
+    font-size: 0.5em;
 }
 
 #logo {
-    margin: 0px;
+    margin: 0;
     padding: 30px; /* Increased padding */
     font-family: "Fredoka One", sans-serif;
     width: 100%; /* Full width */
     text-align: center; /* Centering text */
     text-shadow:
-    1px 1px 0px #0a0908, /* Bottom-right shadow */
-    -1px 1px 0px #0a0908, /* Bottom-left shadow */
-    1px -1px 0px #0a0908, /* Top-right shadow */
-    -1px -1px 0px #0a0908; /* Top-left shadow */
-    background-color: #c6ac8f; /* Banner background color */
+        1px 1px 0px black, /* Bottom-right shadow */
+        -1px 1px 0px black, /* Bottom-left shadow */
+        1px -1px 0px black, /* Top-right shadow */
+        -1px -1px 0px black; /* Top-left shadow */
 }
 
 ul {
-    margin: 0px;
+    margin: 0;
 }
 
 body > header {
-    background-color: #22333b; /* Dark blue-green for banner */
-    color: #eae0d5; /* Light text */
+    background-color: #68b0ab; /* Updated header color */
+    color: #faf3dd; /* Light text */
     display: flex;
-    height: 20vh; /* Increased height for better spacing */
+    height: 15vh; /* Adjusted height */
     align-items: center;
     justify-content: space-around;
-    padding: 0 20px; /* Padding for better spacing */
 }
 
 body > header > nav > ul {
@@ -48,53 +46,32 @@ body > header > nav > ul {
 }
 
 #nav-ul > li {
-    padding: 12px;
+    padding: 8px;
     margin: 16px;
-    border: 1px solid #eae0d5; /* Border matches light color */
+    border: 1px solid #faf3dd; /* Border matches light color */
     border-radius: 10px;
 }
 
 .navbutton {
-    color: #eae0d5; /* Light color for text */
+    color: #faf3dd; /* Light color for text */
     text-decoration: none;
 }
 
-body > main {
-    position: relative;
-    padding: 20px; /* Add padding around main content */
+#banner-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-body > main::before, body > main::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 200px; /* Width of the side banners */
-    background-color: #5e503f; /* Dark brown for side banners */
-}
-
-body > main::before {
-    left: 0;
-}
-
-body > main::after {
-    right: 0;
+.banner-img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
 }
 
 body > main > article {
     width: 70%;
     margin: auto;
-    background-color: #c6ac8f; /* Light banner background for articles */
-    padding: 20px; /* Padding inside articles */
-    border-radius: 10px; /* Rounded corners */
-}
-
-#main-content {
-    display: flex;
-}
-
-#main-content aside {
-    width: 30%; /* Assigned width */
 }
 
 form {
@@ -106,32 +83,4 @@ h2 {
 }
 
 body > footer {
-    background-color: #22333b; /* Dark blue-green for footer */
-    display: flex;
-    justify-content: space-around; /* Spread items evenly */
-    padding: 10px 0; /* Padding for better spacing */
-}
-
-#footer-ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly; /* Spread the items evenly */
-    width: 80%;
-    margin: auto;
-}
-
-#footer-ul > div > li {
-    margin-left: 12px;
-}
-
-#footer-ul > div > li > a {
-    text-decoration: none;
-    color: #eae0d5; /* Light text */
-}
-
-footer h2 {
-    font-size: 0.7em; /* Small copyright text */
-    color: #eae0d5;
-    text-align: center;
-    margin-top: 5px;
-}
+    background-color: #c8d5b9; /* Updated
