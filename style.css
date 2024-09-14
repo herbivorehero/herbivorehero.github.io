@@ -2,8 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     font-size: 28px;
-    background-color: #faf3dd; /* Light background for the main text */
-    color: #4a7c59; /* Dark text */
+    background-color: #faf3dd; /* Background behind the main text */
+    color: #4a7c59; /* Dark text color */
 }
 
 p {
@@ -12,7 +12,7 @@ p {
 
 #logo {
     margin: 0;
-    padding: 30px; /* Increased padding */
+    padding: 30px; /* Increased padding for better visibility */
     font-family: "Fredoka One", sans-serif;
     width: 100%; /* Full width */
     text-align: center; /* Centering text */
@@ -74,6 +74,18 @@ body > main > article {
     margin: auto;
 }
 
+.album-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.album-img-small {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
 form {
     text-align: center;
 }
@@ -83,4 +95,32 @@ h2 {
 }
 
 body > footer {
-    background-color: #c8d5b9; /* Updated
+    background-color: #c6ac8f; /* Updated footer color */
+    display: flex;
+    justify-content: space-around; /* Spread items evenly */
+    padding: 10px 0; /* Padding for better spacing */
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly; /* Spread the items evenly */
+    width: 80%;
+    margin: auto;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: #faf3dd; /* Light text */
+}
+
+footer h2 {
+    font-size: 0.7em; /* Small copyright text */
+    color: #faf3dd;
+    text-align: center;
+    margin-top: 5px;
+}
