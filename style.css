@@ -2,56 +2,58 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 28px;
+    background-color: #fefae0; /* Light background */
+    color: #283618; /* Dark text */
 }
 
 p {
-    font-size: 0.5em;
+    font-size: 0.9em; /* Slightly larger for better readability */
 }
 
 #logo {
     margin: 0px;
-    padding: 8px;
+    padding: 20px; /* Increased padding */
     font-family: "Fredoka One", sans-serif;
-    box-shadow 8px 8px 10px 3px darkorange;
-    width: 16%;
+    width: 100%; /* Full width */
+    text-align: center; /* Centering text */
     text-shadow:
     1px 1px 0px black, /* Bottom-right shadow */
     -1px 1px 0px black, /* Bottom-left shadow */
     1px -1px 0px black, /* Top-right shadow */
     -1px -1px 0px black, /* Top-left shadow */
-
 }
 
 ul {
-    margin: 0px
+    margin: 0px;
 }
+
 body > header {
-    background-color: orange;
+    background-color: #606c38; /* Dark green for banner */
+    color: #fefae0; /* Light text */
     display: flex;
-    color: white;
-    height: 12vh;
+    height: 15vh; /* Adjusted height */
     align-items: center;
     justify-content: space-around;
 }
 
-body > header > nav > Ul {
+body > header > nav > ul {
     list-style: none;
     text-decoration: none;
 }
 
 #nav-ul {
-    display: flex
+    display: flex;
 }
 
 #nav-ul > li {
     padding: 8px;
     margin: 16px;
-    border: 1px solid white;
-    border-radius: 10;
+    border: 1px solid #fefae0; /* Border matches light color */
+    border-radius: 10px;
 }
 
 .navbutton {
-    color: white
+    color: #fefae0; /* Light color for text */
     text-decoration: none;
 }
 
@@ -65,7 +67,7 @@ body > main > article {
 }
 
 #main-content aside {
-    width: 
+    width: 30%; /* Assigned width */
 }
 
 form {
@@ -76,23 +78,33 @@ h2 {
     text-align: center;
 }
 
-
-
 body > footer {
-    background-color: orange;
+    background-color: #283618; /* Dark green for footer */
     display: flex;
+    justify-content: space-around; /* Spread items evenly */
+    padding: 10px 0; /* Padding for better spacing */
 }
 
-#footer-ul{
-    display:flex;
+#footer-ul {
+    display: flex;
     list-style: none;
+    justify-content: space-evenly; /* Spread the items evenly */
+    width: 80%;
+    margin: auto;
 }
 
-#footer-ul > div > li{
-    margin-left 12px;
+#footer-ul > div > li {
+    margin-left: 12px;
 }
 
-#footer-ul > div > li > a{
+#footer-ul > div > li > a {
     text-decoration: none;
-    color: white;
+    color: #fefae0; /* Light text */
+}
+
+footer h2 {
+    font-size: 0.7em; /* Small copyright text */
+    color: #fefae0;
+    text-align: center;
+    margin-top: 5px;
 }
