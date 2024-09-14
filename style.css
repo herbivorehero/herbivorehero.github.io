@@ -96,7 +96,7 @@ h2 {
 }
 
 body > footer {
-    background-color: #2cb2da; /* Updated footer color */
+    background-color: #68b0ab; /* Updated footer color */
     display: flex;
     justify-content: space-around; /* Spread items evenly */
     padding: 10px 0; /* Padding for better spacing */
